@@ -1,0 +1,38 @@
+body{
+font-family: Arial, sans-serif;
+background-color:#f4f4f4;
+margin:0;
+padding:0;
+}
+
+nav{
+background-color:#333;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+h1{
+text-align:center;
+color:#333;
+}
+
+p{
+text-align:center;
+}
+
+img{
+display:block;
+margin:auto;
+margin-top:20px;
+}
