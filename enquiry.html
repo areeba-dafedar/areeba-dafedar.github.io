@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Enquiry</title>
+<title>Tourist Enquiry</title>
 <link rel="stylesheet" href="style.css">
+<script src="enquiry.js"></script>
 </head>
 
 <body>
 
-<h1>Tourist Enquiry</h1>
+<header>
+<h1>Tourist Enquiry Form</h1>
 
 <nav>
 <a href="index.html">Home</a>
@@ -16,25 +18,30 @@
 <a href="travel.html">Travel Guide</a>
 <a href="food.html">Food</a>
 <a href="enquiry.html">Enquiry</a>
-<a href="history.html">History</a>
 </nav>
+</header>
 
-<form style="text-align:center">
+<section>
 
-Name:<br>
-<input type="text"><br><br>
+<form onsubmit="return validateForm()">
 
-Email:<br>
-<input type="email"><br><br>
+<label>Name</label>
+<input type="text" id="name">
 
-Message:<br>
-<textarea></textarea><br><br>
+<label>Email</label>
+<input type="email" id="email">
 
-<button>Submit</button>
+<label>Country</label>
+<input type="text" id="country">
+
+<label>Message</label>
+<textarea id="message"></textarea>
+
+<button type="submit">Submit</button>
 
 </form>
 
-<img src="images/tuljapur.jpg" width="400">
+</section>
 
 </body>
 </html>
